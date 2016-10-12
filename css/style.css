@@ -1,0 +1,627 @@
+/*Main Style by FrontLine skype: frontline_tz*/
+
+@font-face {
+    font-family: fn;
+    src: url(../fonts/53jscYMp.otf),
+    url(../fonts/EuropeExt.woff);
+}
+
+@font-face {
+    font-family: fb;
+    src: url(../fonts/EuropeExt-Bold.otf),
+    url(../fonts/EuropeExt-Bold.woff);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.lang_kz * {
+    font-family: arial, verdana !important;
+}
+
+.lang_kz .top_title {
+    font-weight: bold;
+}
+
+.lang_kz
+
+a img {
+    border: none;
+}
+
+.clear {
+    clear: both;
+}
+
+*:focus {
+    outline: none;
+}
+
+.clearfix:after {
+    display: block;
+    width: 100%;
+    clear: both;
+    content: "";
+}
+
+.only_pad {
+    display: none !important;
+}
+
+body {
+    font-family: Verdana, arial, tahoma;
+    font-size: 18px;
+    background: url(../images/body_bg.jpg) repeat;
+    color: #fff;
+    min-width: 320px;
+}
+
+.units {
+    font-size: 0;
+    letter-spacing: -1px;
+    line-height: 0;
+}
+
+.units .item {
+    font-size: 18px;
+    letter-spacing: normal;
+    line-height: normal;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.black {
+    background-color: #000;
+}
+
+.main_wrap {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+#head .main_wrap {
+    background: url(../images/main-bg.jpg) no-repeat center 140px;
+    padding: 30px 0;
+    background-size: 100% auto;
+}
+
+.logo_wrap {
+    float: left;
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+.phone {
+    margin-top: 25px;
+    background: url(../images/phone.png) no-repeat left center;
+    font-family: fn;
+    font-size: 22px;
+    padding: 12px 0 12px 80px;
+}
+
+.phone a {
+    color: #fff;
+}
+
+.langs {
+    float: right;
+    text-align: right;
+}
+
+.langs .name {
+    text-transform: uppercase;
+    font-family: fb;
+}
+
+.langs .lng {
+    margin-top: 20px;
+}
+
+.langs .lng a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background: #999999;
+    line-height: 27px;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding-bottom: 2px;
+}
+
+.langs .lng a.active {
+    background: #ff6600;
+}
+
+.langs .lng a.active:hover {
+    cursor: default;
+}
+
+.top_title {
+    margin-top: 360px;
+    text-align: center;
+    color: #ff6600;
+    font-family: fb;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 0;
+}
+
+#head .units {
+    text-align: center;
+}
+
+#head .units .item {
+    width: 32.5%;
+    box-sizing: border-box;
+    background: url(../images/star.png) no-repeat left center;
+    vertical-align: middle;
+    text-align: left;
+    padding: 25px 0 25px 80px;
+    min-height: 50px;
+}
+
+#head .units .item:last-child {
+    width: 35%;
+
+}
+
+.block_title {
+    text-align: center;
+    background: url(../images/title_bg.jpg) no-repeat #ff6600 center;
+    padding: 20px 0;
+    font-size: 40px;
+    font-family: fb;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    background-size: auto 100%;
+}
+
+.why .units {
+    padding-left: 350px;
+    background: url(../images/wom.jpg) no-repeat left top;
+    background-size: auto 100%;
+    padding-bottom: 20px;
+}
+
+.why .item {
+    width: 50%;
+    box-sizing: border-box;
+    padding-right: 30px;
+    padding-left: 50px;
+    background: url(../images/gal.png) no-repeat left 5px;
+    margin-bottom: 15px;
+}
+
+.why .item .title {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.why .item .descr {
+    font-size: 12px;
+}
+
+.our_cl {
+    background: url(../images/tr.png) no-repeat center top #000;
+    background-size: cover;
+}
+
+.our_cl .block_title {
+    margin-bottom: 0;
+}
+
+.our_cl .dark_bg {
+    background: rgba(0, 0, 0, 0.65);
+    padding-top: 40px;
+}
+
+.our_cl .item {
+    width: 32%;
+    margin-right: 1.5%;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.our_cl .item:nth-child(3n+3) {
+    margin-right: 0;
+}
+
+.our_cl .item:last-child {
+    margin-right: 0;
+}
+
+.our_cl .item .title {
+    color: #ff6600;
+    font-family: fb;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.our_cl .item .descr {
+    font-size: 14px;
+}
+
+.personell .note {
+    margin: 10px 0 40px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.personell .item {
+    width: 32%;
+    margin-right: 1.5%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.personell .item .img {
+    margin-bottom: 15px;
+}
+
+.personell .item:nth-child(3n+3) {
+    margin-right: 0;
+}
+
+.personell .item .title {
+    font-size: 22px;
+    color: #ff6600;
+    font-family: fb;
+    margin-bottom: 10px;
+}
+
+.personell .item .title span:first-child {
+    display: block;
+}
+
+.personell .item .wp {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.personell .item .descr {
+    font-size: 12px;
+}
+
+.preferences .block_title {
+    background: transparent;
+    max-width: 780px;
+    margin: 0 auto 30px;
+}
+
+.preferences {
+    padding: 30px 0;
+}
+
+.preferences .item {
+    width: 32%;
+    margin-right: 1.5%;
+    text-align: center;
+    margin-bottom: 50px;
+    text-align: left;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+.preferences .item .img {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+    margin-right: 15px;
+}
+
+.preferences .item .text {
+    display: inline-block;
+    width: 63%;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.preferences .item:nth-child(3n+3) {
+    margin-right: 0;
+}
+
+.contacts {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.contacts .item {
+    width: 50%;
+    font-size: 22px;
+    padding-left: 100px;
+    box-sizing: border-box;
+    background: url(../images/t3.png) no-repeat left center;
+}
+
+.contacts .item a {
+    color: #fff;
+}
+
+.contacts .item.it2 {
+    background-image: url(../images/t4.png);
+}
+
+.contacts .item.it2 span {
+    display: block;
+}
+
+.contacts .it1 span {
+    font-size: 35px;
+}
+
+.map {
+    margin-top: 40px;
+    position: relative;
+    font-size: 0;
+}
+
+.map .main_wrap {
+    padding: 0 !important;
+}
+
+.map img {
+    max-width: 100%;
+    border: 3px solid #b2b3b3;
+    box-sizing: border-box;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+
+footer .logo {
+    margin-bottom: 20px;
+}
+
+footer .info {
+    font-size: 15px;
+}
+
+#slides {
+    position: relative;
+    font-size: 0;
+}
+
+.slidesPrevious, .slidesNext {
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url(../images/arrows.png) left top;
+    top: 50%;
+    margin-top: -25px;
+    left: 20px;
+    z-index: 100;
+}
+
+.conter {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    opacity: 0;
+}
+
+.abs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slidesNext {
+    background-position: right top;
+    left: auto;
+    right: 20px;
+}
+
+.slidesNext:hover {
+    background-position: right bottom;
+}
+
+.slidesPrevious:hover {
+    background-position: left bottom;
+}
+
+.slidesjs-pagination, .slidesjs-play, .slidesjs-stop {
+    display: none;
+}
+
+.gallery {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+
+/*.slidesjs-container, .slidesjs-control {
+	height:666px !important;
+	overflow:hidden;
+}*/
+
+.slidesControl img {
+    width: 100%;
+}
+
+.slogan-block {
+    background: url(../images/slogan-rus.png) no-repeat center center;
+    width: 258px;
+    height: 133px;
+    display: inline-block;
+}
+
+.slogan-block.kz {
+    background-image: url(../images/slogan-kaz.png);
+}
+
+.slogan-block.eng {
+    background-image: url(../images/slogan-eng.png);
+}
+
+/***********************************/
+
+@media screen and (max-width: 900px) {
+    .top_title {
+        margin-top: 340px;
+    }
+
+    .only_pad {
+        display: inline-block !important;
+    }
+
+    #head .main_wrap {
+        background-position: center 160px;
+    }
+
+    #head .units .item, #head .units .item:last-child {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 80px;
+        background-position: center top;
+        /*max-width:350px;*/
+        display: block;
+        margin: 0 auto 15px;
+        text-align: center;
+    }
+
+    .why .units {
+        background: none;
+        padding-left: 0;
+    }
+
+    .contacts .item {
+        width: 100%;
+        max-width: 450px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        display: block;
+    }
+
+    .personell .item:nth-child(3n+3), .personell .item, .our_cl .item, .our_cl .item:nth-child(3n+3), .preferences .item, .preferences .item:nth-child(3n+3) {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .personell .item:nth-child(2n+2), .our_cl .item:nth-child(2n+2), .preferences .item:nth-child(2n+2) {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 670px) {
+
+    .only_pad {
+        display: none;
+    }
+
+    .personell .item:nth-child(3n+3), .personell .item, .our_cl .item, .our_cl .item:nth-child(3n+3), .preferences .item, .preferences .item:nth-child(3n+3), .why .item {
+        width: 100%;
+        margin-right: auto !important;
+    }
+
+    .preferences .item .img, .preferences .item .text {
+        display: block;
+        text-align: center;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .preferences .item {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 300px;
+        display: block;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    .phone {
+        padding-left: 0;
+        padding-top: 80px;
+        background-position: center top;
+        text-align: center;
+    }
+
+    .top_title {
+        font-size: 30px;
+    }
+
+    .logo img {
+        max-width: 100%;
+    }
+
+    .block_title {
+        font-size: 24px;
+    }
+
+    .preferences .item .img {
+        margin-bottom: 15px;
+    }
+
+    .contacts .item {
+        padding-left: 0;
+        padding-top: 100px;
+        background-position: center top;
+        text-align: center;
+    }
+
+    .logo_wrap {
+        float: none;
+    }
+
+    .langs {
+        float: none;
+        text-align: center;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    #head .main_wrap {
+        background-position: center 350px;
+    }
+
+    .contacts .item {
+        font-size: 16px;
+    }
+
+    .contacts .it1 span {
+        font-size: 28px;
+    }
+
+    .langs .name {
+        position: relative;
+        top: -150px;
+    }
+
+    .phone {
+        position: relative;
+        top: 50px;
+    }
+
+    .top_title {
+        margin-top: 280px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .top_title {
+        margin-top: 200px;
+    }
+}
