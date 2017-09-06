@@ -85,7 +85,7 @@ body {
 }
 
 #head .main_wrap {
-    background: url(../images/main-bg.jpg) no-repeat center 140px;
+    background: url(../images/man1.png) no-repeat center 140px;
     padding: 30px 0;
     background-size: 100% auto;
 }
@@ -151,11 +151,12 @@ body {
 .top_title {
     margin-top: 360px;
     text-align: center;
-    color: #ff6600;
+    color: #fff;
     font-family: fb;
     margin-bottom: 20px;
     text-transform: uppercase;
-    font-size: 0;
+    font-size: 40px;
+    text-shadow: 0 0 5px #000
 }
 
 #head .units {
